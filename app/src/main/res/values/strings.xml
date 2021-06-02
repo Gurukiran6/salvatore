@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Salvatore</string>
+    <string name="delete">Delete Contact</string>
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ad_unit_id">ca-app-pub-4455231867863882/1536567787</string>
+</resources>

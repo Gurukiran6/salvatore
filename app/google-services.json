@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847452335880",
+    "project_id": "adsview-95c33",
+    "storage_bucket": "adsview-95c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847452335880:android:2223c4f66c8498388546bd",
+        "android_client_info": {
+          "package_name": "com.example.salvatore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847452335880-htjmfv4ih6s70aqj7o8l3ggucvdpjkfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATUJFjoIvEAHTbUMI9lNzHa85SzGn3we8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847452335880-htjmfv4ih6s70aqj7o8l3ggucvdpjkfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

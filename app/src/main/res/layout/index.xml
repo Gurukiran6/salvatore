@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000020"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageButton
+        android:id="@+id/alert"
+        android:layout_width="160dp"
+        android:layout_height="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#F90000"
+        android:text="ALERT!"
+        android:textSize="25dp"
+        app:cornerRadius="100dp"
+        android:onClick="Alert"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="214dp"
+        android:src="@drawable/alert"
+        android:scaleType="fitXY"
+        android:background="@null"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="133dp"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="select"
+            android:text="Select Contacts" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="133dp"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Vault" />
+
+        <Button
+            android:id="@+id/selected"
+            android:layout_width="133dp"
+            android:layout_height="91dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:onClick="selected"
+            android:text="Selected Contacts" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="133dp"
+            android:layout_height="91dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Emergency Contact"/>
+
+    </RelativeLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
